@@ -1,7 +1,7 @@
 /*
  *  Author:			Parker Lloyd
  *
- *	Description:	This program accepts a 4-bit command from an MCU to read/write
+ *  Description:	This program accepts a 4-bit command from an MCU to read/write
  *					values that are stored in two 8-bit registers.
  *					Possible commands are:
  *              	Valid commands are:
