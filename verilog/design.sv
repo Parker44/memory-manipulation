@@ -5,9 +5,9 @@
  *                values that are stored in two 8-bit registers.
  *					      Possible commands are:
  *              	Valid commands are:
- *					        - "xxx0"	: points to register A	*WILL NOT BE RUN BY ITSELF*
- *					        - "xxx1"	: points to register B	*WILL NOT BE RUN BY ITSELF*
- *                	- "000x"	: sets the value of the pointed register to zero
+ *                  - "xxx0"	: points to register A	*WILL NOT BE RUN BY ITSELF*
+ *                  - "xxx1"	: points to register B	*WILL NOT BE RUN BY ITSELF*
+ *                  - "000x"	: sets the value of the pointed register to zero
  *                	- "001x"	: increments the value of the pointed register
  *                	- "010x"	: decrements the value of the pointed register
  *					        - "011x"	: inputs the next value into the pointer register
