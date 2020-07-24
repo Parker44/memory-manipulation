@@ -4,14 +4,14 @@
  *  Description:  This program accepts a 4-bit command from an MCU to read/write
  *                values that are stored in two 8-bit registers.
  *                Possible commands are:
- *              	Valid commands are:
+ *                Valid commands are:
  *                  - "xxx0"	: points to register A	*WILL NOT BE RUN BY ITSELF*
  *                  - "xxx1"	: points to register B	*WILL NOT BE RUN BY ITSELF*
  *                  - "000x"	: sets the value of the pointed register to zero
- *                	- "001x"	: increments the value of the pointed register
- *                	- "010x"	: decrements the value of the pointed register
- *					        - "011x"	: inputs the next value into the pointer register
- *                	- "100x	: decrements the value of the pointed register and repeats the previous command
+ *                  - "001x"	: increments the value of the pointed register
+ *                  - "010x"	: decrements the value of the pointed register
+ *                  - "011x"	: inputs the next value into the pointer register
+ *                  - "100x	: decrements the value of the pointed register and repeats the previous command
  *                  - "101x"	: outputs the value of pointed register on the CPLD I/O
  */
 module two_byte_memory(clk, en, pc_in, data_out, int_wait, data_a, data_b);
