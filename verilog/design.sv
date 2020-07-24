@@ -3,7 +3,7 @@
  *
  *  Description:  This program accepts a 4-bit command from an MCU to read/write
  *                values that are stored in two 8-bit registers.
- *					      Possible commands are:
+ *                Possible commands are:
  *              	Valid commands are:
  *                  - "xxx0"	: points to register A	*WILL NOT BE RUN BY ITSELF*
  *                  - "xxx1"	: points to register B	*WILL NOT BE RUN BY ITSELF*
