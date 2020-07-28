@@ -23,7 +23,7 @@ module two_byte_memory(clk, en, pc_in, data_out, int_wait, data_a, data_b);
   input							            en;			  // enable pulse triggered by new command/input
   input	 	    [INPUT_WIDTH-1:0]	pc_in; 		// the 4-bit pc command/input value
   output 	    [MEM_WIDTH-1:0]	  data_out;	// the data read from a register
-  output wire					          int_wait;	// indicates if CPLD is waiting for integer input value
+  output wire int_wait;	// indicates if CPLD is waiting for integer input value
   output wire [MEM_WIDTH-1:0]	  data_a;		// for viewing contents fo reg(A) w/o output command
   output wire [MEM_WIDTH-1:0]	  data_b;		// for viewing contents fo reg(B) w/o output command
   
